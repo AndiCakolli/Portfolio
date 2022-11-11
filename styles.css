@@ -171,7 +171,7 @@ span {
     height: 80px;
     text-align: center;
     text-decoration: none;
-    color: #000;
+    color: #8904ef;
     box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
     margin: 0 30px;
     border-radius: 50%;
@@ -203,4 +203,121 @@ span {
 
 .btn2 span i:hover::after{
     top: 0;
+}
+
+.social {
+    position: absolute;
+    top:50%;
+    padding: 0 7%;
+    transform: translateY(-50%);
+}
+
+.social ul li {
+    margin: 20px 0;
+}
+
+.social ul li i {
+    font-size: 22px;
+    color: #161616;
+    transition: all .30s;
+}
+
+.social ul li i:hover{
+    transform: translateY(-5px);
+    color: #ffbb01;
+}
+
+@media (max-width: 1380px) {
+    header{
+        padding: 18px 2%;
+        transition: .2s;
+    }
+    section{
+        padding: 0 2%;
+        transition: .2s;
+    }
+    .social {
+        display: none;
+    }
+}
+
+@media (max-width: 1120px){
+    header{
+        padding: 14px 2%;
+    }
+    #menu-icon{
+        display: initial;
+    }
+    .text h1{
+        font-size: 78px;
+        transition: .2s;
+    }
+    .text h2{
+        font-size: 58px;
+        transition: .2s;
+    }
+    .text p {
+        font-size: 17px;
+        transition: .2s;
+    }
+    .btn {
+        height: 50px;
+        line-height: 51px;
+        padding: 0 28px;   
+    }
+    .ikona a .bx {
+        line-height: 51px !important;
+    }
+
+    .btn2 {
+        margin-left: 20px;
+    }
+
+    .btn2 span i {
+        height: 50px;
+        width: 50px;
+        font-size: 30px;
+    }
+
+    .navbar {
+        position: absolute;
+        top: -700px;
+        left:0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: #8904ef;
+        text-align: left;
+        transition: all .35s ease;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 1rem;
+        margin: 1.3rem;
+        color: #fff;
+        border-left: 2px solid #fff;
+    }
+
+    .navbar a:hover {
+        background: #fff;
+        color: #161616;
+    }
+
+    .navbar a::after {
+        display: none;
+    }
+
+    .navbar.active{
+        top: 100%
+    }
+}
+
+@media (max-width: 640px){
+    section{
+        padding: 0 3%;
+    }
+    header{
+        padding: 14px 3%;
+    }
 }
