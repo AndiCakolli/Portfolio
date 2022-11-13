@@ -1,4 +1,4 @@
-<img style="text-align: center;" width="900" height="900" alt="Portfolio Andi" src="https://i.imgur.com/IQ0pg0i.png"/>
+<img style="text-align: center;" width="600" height="500" alt="Portfolio Andi" src="https://i.imgur.com/IQ0pg0i.png"/>
 
 
 ## :rocket: Tech
