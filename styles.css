@@ -442,6 +442,12 @@ span {
     width: 100%;
     padding: 0 1.5rem;
   }
+  .about > .containeer > .about-photo > picture > img {
+    width: 22.5rem;
+  }
+  .containeer {
+    display: block;
+  }
 }
 
 /*
@@ -764,13 +770,8 @@ djatht {
 }
 
 .ngjyra3 {
-<<<<<<< HEAD
   background-color: #f7f6f6;
   width: 100%;
-=======
-    background-color: #f7f6f6;
-    width: 100%;
->>>>>>> b185905b937c934b342acb20df3161ab2e6b6174
 }
 
 .titlee {
