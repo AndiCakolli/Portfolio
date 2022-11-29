@@ -904,24 +904,20 @@ footer {
   opacity: 0.4;
   font-weight: 200;
 }
-<<<<<<< HEAD
-=======
-.footer-bottom p{
-    float: left;
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
- }
- .footer-bottom p a{
-   color:#44bae8;
-   font-size: 16px;
-   text-decoration: none;
- }
- .footer-bottom span{
-     text-transform: uppercase;
-     opacity: .4;
-     font-weight: 200;
- }
 
- 
->>>>>>> b185905b937c934b342acb20df3161ab2e6b6174
+.footer-bottom p {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom p a {
+  color: #44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
