@@ -1,16 +1,14 @@
-<img style="text-align: center;" width="600" height="500" alt="Portfolio Andi" src="https://i.imgur.com/IQ0pg0i.png"/>
+# :rocket: Portfolio
+
+This is a personal portfolio website created for the Starlabs course project. The website was built with HTML and CSS, and utilizes the following libraries:
+-  Scrollreveal.js: A library of cross-browser CSS animations.
+-  Boxicons: A library of scalable vector icons.
+
+# Usage
+
+To use the website, simply click the link -> <a href="https://andicakolli.github.io/Portfolio/">Demo</a>
 
 
-## :rocket: Tech
+# Credits
 
-This project was developed with the following tech:
-
--  HTML5
--  CSS3
--  Javascript
--  [BoxIcons](https://boxicons.com/)
--  [ScrollReveal](https://scrollrevealjs.org/)
--  [VS Code](https://code.visualstudio.com/)
-
-
-- Front End by [Andi Cakolli](https://www.linkedin.com/in/andicakolli/)
+This project was developed by Anndi. It was a task for the Starlabs course. The website design was inspired by developedbyed; (YouTube).
